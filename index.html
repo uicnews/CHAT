@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<div id="fb-root"></div>
+<link rel="stylesheet" type="text/css" href="stylefeuille.css">
+<script src="javascript.js"></script>
+<title>News</title>
+</head>
+<body>
+<header>
+<div class="hero"> 
+  <div class="hero__title"><font color="lightblue">Hub UIC</font></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+</div>
+   <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet'>
+</header>
+<div id="diap0">
+<h1 id="diapht" style="color: darkblue;font: 72px 'Sansita One';
+text-align: center;text-shadow: 3px 3px 0px #393D48, 6px 6px 0px #5c5f72;">
+bienvenue sur le hub</h1>
+<img src="close.png" id="quitimg" style="-webkit-animation: mymove 2s infinite;
+    animation: mymove 2s infinite;" onclick="quit0()">
+</div>
+<div id="diap">
+<div><img src="close.png" id="quitimg" onclick="quit()"></div>
+<img src="swipl.png" width="75px" height="75px" id="aleft" onclick="befimg()">
+<div id="diapimag"></div>
+<img src="swipr.png" width="75px" height="75px" id="aright" onclick="nextimg()">
+</div>
+<div id="left">
+<table border="1" frame="void">
+<tr>
+<td style="width:200px">
+<section>
+<article>
+<img src="new-website.jpg" id="pres" width="400px" height="200px"/>
+<h1 style="word-break:normal;color:#000033;">bienvenue sur le site</h1>
+<p style="word-break: normal;">ce site viens d'ouvrir,appuyez sur <strong>plus</strong> pour en savoir d'avantage.</p>
+<script>
+var h0="Ouverture du site";
+var p0="Ce site a pour objectif de promouvoir notre vie sociale au sein de l'etablissement il est en cours de developpement:plusieurs modules vont y etre ajouter.Pour l'instant il n'y a que les articles mais ce hub s'ameliorera au fur et a mesure du temps.veuillez rester informés,le lien de la page facebook est en dessous.";
+var addon0='<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffr-fr.facebook.com%2Finstagram&width=450&layout=standard&action=recommend&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>';
+</script>
+<a name="link" onclick="writep(h0,p0,0);addon(addon0)">plus...</a>
+</article>
+</section>
+</td>
+</tr>
+</table>
+</div>
+<div id="right" style="background-color:lightblue">
+<div id="box"  onclick="exco()"><div>&#10134;</div></div>
+<div id="box1"  onclick="closep()"><div style="padding:0.65px">&#10060;</div></div>
+<h1 id="demoh1"></h1>
+<p id="demo"></p>
+<div id="addon"></div>
+</div>
+<div id="plus" onclick="exco()"><img src="plus.png" style="text-align:center;padding:7.5px;width:25px;height:25px"/></div>
+</body>
+<footer>
+<p>&copy; copyright Newsuic</p>
+</footer>
+</html>
