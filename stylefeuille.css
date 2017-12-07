@@ -563,16 +563,27 @@ li
   visibility:hidden;
 }
 
+#box
+{
+  visibility:hidden;
+}
+
 #right
 {
-	width:700px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+width:640px;
+  max-height:350px;
+	overflow-y:scroll;
+  position: fixed;
+  top: 20px;
+	word-break: normal;
+	box-shadow: 5px 5px 5px #888888;
+	visibility:hidden;
+	border-radius: 10px;
+  background-color:lightblue
 }
    td
    {
      width:640px;
+     font-size:15px;
    }
 }
